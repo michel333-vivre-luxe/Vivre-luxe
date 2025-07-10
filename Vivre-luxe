@@ -1,0 +1,102 @@
+<!DOCTYPE html><html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda Online</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: #fff;
+    }
+    header {
+      background-color: #1e1e1e;
+      padding: 20px;
+      text-align: center;
+      font-size: 2em;
+    }
+    .productos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .producto {
+      background-color: #1f1f1f;
+      padding: 15px;
+      border-radius: 8px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+    .producto img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+    .producto h3 {
+      margin: 10px 0 5px;
+    }
+    .producto p {
+      margin: 5px 0 10px;
+    }
+    .boton-comprar {
+      background-color: #00c853;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+    }
+    footer {
+      background-color: #1e1e1e;
+      text-align: center;
+      padding: 15px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    .whatsapp {
+      position: fixed;
+      bottom: 80px;
+      right: 20px;
+      background-color: #25D366;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+    }
+    .whatsapp img {
+      width: 35px;
+      height: 35px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    Mi Tienda Online
+  </header>  <section class="productos">
+    <div class="producto">
+      <img src="https://via.placeholder.com/250" alt="Producto 1">
+      <h3>Producto 1</h3>
+      <p>Descripción breve del producto.</p>
+      <a href="#" class="boton-comprar">Comprar</a>
+    </div>
+    <div class="producto">
+      <img src="https://via.placeholder.com/250" alt="Producto 2">
+      <h3>Producto 2</h3>
+      <p>Otra descripción.</p>
+      <a href="#" class="boton-comprar">Comprar</a>
+    </div>
+    <!-- Puedes duplicar estos bloques para más productos -->
+  </section>  <a class="whatsapp" href="https://wa.me/591TU_NUMERO" target="_blank" title="Contáctame en WhatsApp">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+  </a>  <footer>
+    &copy; 2025 Mi Tienda Online
+  </footer>
+</body>
+</html>
